@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+/* variable */
+:root{
+    --green-color: #7ACC2D;
+    --white-color: white;
+    --black-color: #313337;
+    /* Tipografia */
+    --normal: 12px;
+    /* espaciado */
+    --space: 10px;
+    /* boxshadon */
+    --box:0px 0 2px 1px #e6e5e9;
+}
+/* variable */
+
+/* Aqui es el estilo de nav */
+html, body{
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    /* font-family: Helvetica; */
+    font-family: 'Open Sans', sans-serif;
+}
+label{
+    font-size: 12px;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    padding: var(--space);
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/* aqui va el estilo main-section */
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+.products{
+    background-image: url("../image/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+   
+}
+.product{
+    padding: var(--space);
+    margin-top: -290px;
+}
+.product .contect{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+.product p{
+    text-align: center;
+}
+.image_contect{
+    text-align: center;
+}
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+.main_button:hover{
+    background-color: #759a51;
+}
+/* aqui va estilo section2 */
+.section-1{
+
+    justify-content: center;
+    padding: 30px;
+    
+    
+    
+    display: flex;
+
+}
+.section-user{
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+
+    
+}
+
+.sec-nav{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.section-details{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    padding-top: 0;
+}
+.section-Udetail{
+    padding: 25px;
+}
+.sec-footer{
+    background: #313337;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sec-footer  a{
+    color: var(--green-color);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.option-contact a{
+    color: var(--green-color);
+}
+.section-Udetail, p {
+    margin-top: 0;
+}
+.section-Udetail h3{
+    margin-top: 0;
+}
+
+/* ---------------------------------venta */
+.modulo-pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+.modulo-pago-image{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+.modulo-pago .main_button{
+    margin-top: 10px;
+}

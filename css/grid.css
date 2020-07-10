@@ -1,0 +1,75 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.colm-1{
+    width: 8.333333333%;
+}
+.colm-2{
+    width: 16.666666666%;
+}
+.colm-3{
+    width: 24.999999999%;
+}
+.colm-4
+{
+    width: 33.333333332%;
+}
+.colm-5{
+    width: 41.666666665%;
+}
+.colm-6{
+    width: 49.999999998%;
+}
+.colm-7{
+    width: 58.333333331%;
+}
+.colm-8{
+    width: 66.666666664%;
+}
+.colm-9{
+    width: 74.999999997%;
+}
+.colm-10{
+    width: 83.333333333%;
+}
+.colm-11{
+    width: 91.666666663%;
+}
+.colm-12{
+    width: 99.999999996%;
+}
+.colm-1,.colm-2,.colm-3,.colm-4,.colm-5,.colm-6,.colm-7,.colm-8,.colm-9,.colm-10,.colm-11,.colm-12{
+    padding: 10px;
+    
+}
+/* .colm-8{
+    margin-top: 150px;
+    margin-left: 20px;
+} */
+/* .row{
+    border: 1px solid red;
+} */
+/* .row img{
+    position: relative;
+    left: 150px;
+} */
+
+/* .colm-5, .colm-7{
+    border: 1px solid red;
+    display: flex;
+} */
+
+
+@media (max-width: 900px){
+    .row{
+        display: inherit;
+    }
+    .colm-1,.colm-2,.colm-3,.colm-4,.colm-5,.colm-6,.colm-7,.colm-8,.colm-9,.colm-10,.colm-11,.colm-12{
+        width: 100%;
+
+    }
+}

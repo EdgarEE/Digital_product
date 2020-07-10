@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilos.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            border: 2px solid red;
+        }
+        img{
+            border: 1px solid blue;
+            display: inline-block;
+            margin: 40px 10px;
+            height: 100px;
+            width: 150px;
+            padding: 10px;
+        }
+    </style>
+    <h1>Fiesta de gifs</h1>
+    <img src="image/fiesta1.gif" alt="">
+    <img src="image/fiesta2.gif" alt="">
+    <img src="image/fiesta3.gif" alt="">
+    <img src="image/fiesta4.gif" alt="">
+    <img src="image/fiesta5.gif" alt="">
+    <img src="image/fiesta6.gif" alt="">
+    <h2>soy h2</h2>
+    <h3>soy h3</h3>
+    <div>Hey soy un div</div>
+    <span>Hey soy un span</span>
+    <p>Yo soy el capitán del barco, y este es mi primer oficial</p>
+    <img src="image/image1.gif" width="250" height="250" alt="">
+    <a href="contacto.html">contanto</a> 
+    <script src="js/script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="www.google.com"></form>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="user_name">
+
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="user_age">
+
+    <button type="submit" > Enviar datos</button>
+</body>
+</html>
